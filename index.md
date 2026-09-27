@@ -1,33 +1,54 @@
-[**About me**](index.md) | [**Projects**](projects.md) |[**Researches**](researches.md) | [**Teaching**](teaching.md) | [**Blog Posts**](blog.md) | [**CV**](CV_TREGUBOVA_1page.pdf)
+[**About me**](index.md) | [**Working Papers**](working-papers.md) | [**Applied Urban Research**](applied-research.md) | [**R&D & Code**](rd-code.md) | [**Teaching**](teaching.md) | [**CV**](CV_TREGUBOVA_Academic.pdf)
 
 
-> I build end-to-end geo-ML solutions—from data pipelines and spatial modeling to decision-support tools for site selection and network optimization. My portfolio spans projects for diverse businesses and municipalities worldwide.
-> Passionate about applied research, I am currently a PhD candidate at The Hebrew University of Jerusalem, studying the impact of remote work on urban economies. Use links in page head to chechout details.
-> Please use the navigation links above to explore my projects, teaching experience, and blog.
+> I am a spatial data scientist and Ph.D. candidate at the Hebrew University of Jerusalem, bridging the gap between academic theory and applied location intelligence. My research explores how human behavior shapes the urban environment, leveraging large-scale mobile phone signal data and advanced spatial econometrics. 
+> I am driven by applied research that uses complex spatial datasets to inform urban health policy, improve built environments, and support sustainable city planning. 
+> Please use the navigation links above to explore my academic papers, public sector research, and methodological pipelines.
 
 
-### 🚀 Key Topics & Expertise
+### 🚀 Research Interests & Methodological Focus
 
-**📍 Location Intelligence & Site Selection**   
-Identify optimal locations for retail expansion and automate telecom network design using building-level predictive modeling.
+**📍 Human Mobility Analytics**   
+Behavioral patterns, trajectories embeddings, location intelligence from large-scale mobile phone signal data to understand complex urban dynamics.
 
-**🏙️ Urban Analytics & Smart Cities**   
-Leverage mobile data to quantify public space usage ("foaminess"), analyze tourist flows, and predict real estate development success.
+**🏙️ The Geography of Remote Work**   
+Remote and hybrid work impact on neighborhood local economy, detection of remote working behavior with mobile phone signal data
 
-**🚚 Mobility & Logistics**   
-Optimize supply chain delivery networks and infrastructure planning through traffic simulation and flow analysis.
+**📈 Urban Economics & Policy**   
+Neighborhood revitalization, spatial rent gradients, culture-led revitalization, third places.
 
-**🛠️ Technical Methods**   
-Transform complex raw data into actionable strategic insights using custom Geo-AI pipelines and advanced spatial statistics.
+**🛠️Feature engineering based on Open data**   
+OpenStreetMap, urban morphology, remote sensing
 
 
 ---
 
-## 🌍 Global Project Footprint
+## Recent Academic Highlights
 
-<iframe src="project_map.html" width="100%" height="400px" frameborder="0"></iframe>
+**🎓 August 2026 | 65th ERSA Congress, Sofia**  
+Presented ongoing research on 'third places' and spatial econometrics. 
+
+**🎓 June 2026 | Mobile Tartu Conference, Estonia**  
+Presented the initial resutls of the research on 'third places' at the NECTAR session.
+
+**🌟 March 2026 | Alrov Institute for Real Estate Reseach Grant**  
+Awarded grant to support the research on the impact of 'third places' on housing prices.
+
+**🎓 February 2026 | Regional Science Association conference, Israel**  
+Presented the initial resutls of the research on 'third places'
+
+**🌟 December 2025 | Eshkol institute Research Grant**  
+Received the Eshkol grant to support the research on the impact of 'third places' on residential behavior.
+
+**🌟 December 2025 | David Amiran Scholarship**  
+Awarded by the Spatial Science Department of the Hebrew University of Jerusalem.
+
+**🎓 August 2025 | ERSA Conference, Athens**  
+Awarded the Epainos Student Prize for the research on the impact of remote work on rent market in Tel-Aviv Metropolitan area.
 
 
-## 📅 Let's Work Together
-I am always open to new interesting problems. If you have questions or ideas for potential collaboration, you can reach me on [LinkedIn](https://www.linkedin.com/in/inessa-tregubova/) or write me on [Telegram](https://t.me/intra23)
+---
 
+
+## 📅 Let's Connect
+I am currently looking for postdoctoral opportunities where I can study the different aspects of urban residential behavior. If you have questions about my research or have ideas potential collaborations, please reach me on [LinkedIn](https://www.linkedin.com/in/inessa-tregubova/) or via [Email](mailto:inessa.tregubova@email.huji.ac.il).
