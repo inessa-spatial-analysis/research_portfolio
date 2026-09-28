@@ -1,4 +1,5 @@
-[**About me**](index.md) | [**Academic Papers**](working-papers.md) | [**Applied Urban Research**](researches.md) | [**R&D & Location consulting**](rd-code.md) | [**Teaching**](teaching.md) | [**CV**](CV_TREGUBOVA_Academic.pdf)
+[← Back to Home](index.md)
+
 
 # Applied Urban Policy Research
 
