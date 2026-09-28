@@ -46,6 +46,30 @@ Awarded by the Spatial Science Department of the Hebrew University of Jerusalem.
 **🎓 August 2025 | ERSA Conference, Athens**  
 Awarded the Epainos Student Prize for the research on the impact of remote work on rent market in Tel-Aviv Metropolitan area.
 
+___
+
+## 🛠️ Technical & Methodological Stack
+
+### **Models & Methodologies**
+* **Machine Learning & AI:** Deep Learning, ML Models, Spatial ML Models.
+* **Spatial & Econometrics:** Econometrics, Gravity Models, Linear Programming.
+
+### **Tools & Infrastructure**
+![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
+![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)
+![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Kepler.gl](https://img.shields.io/badge/Kepler.gl-3B3B3B?style=for-the-badge&logo=uber&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+* **Software & Cloud Platforms:** QGIS, Git, Google Cloud, BigQuery, PostgreSQL/PostGIS, Tableau, Kepler.gl.
+
+### **Python & Libraries**
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+* **Core Libraries:** `scikit-learn`, `GeoPandas`, `pandas`,`PySAL`, `momepy`, `numpy`, `Folium`, `Shapely`, `Rasterio`, `H3`, `PyTorch`.
 
 ---
 
