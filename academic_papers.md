@@ -1,4 +1,5 @@
-[**About me**](index.md) | [**Working Papers**](working-papers.md) | [**Applied Urban Research**](applied-research.md) | [**R&D & Code**](rd-code.md) | [**Teaching**](teaching.md) | [**CV**](CV_TREGUBOVA_Academic.pdf)
+[← Back to Home](index.md)
+
 
 # Working Papers & Preprints
 
