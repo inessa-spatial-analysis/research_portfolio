@@ -1,118 +1,70 @@
 [← Back to Home](index.md)
 
-# 📂 Case Studies Examples
+# R&D & Location Consulting
 
-## 🛒 Darkstores Location Strategy (Yango Deli/ Yandex Lavka)
-**Industry:** Food Delivery    
-**Location:** Global (Israel, Russia, UK, SA)
-![Python](https://img.shields.io/badge/-Python-333?style=flat&logo=python) ![Optimization](https://img.shields.io/badge/-Linear_Programming-333?style=flat)
+This section details my applied R&D and location consulting experience in the private sector. As a Senior Data Scientist, I build scalable spatial data pipelines, simulation engines, and machine learning models to solve complex commercial challenges for global businesses. These industry projects demonstrate my ability to bridge the gap between academic spatial theory and real-world business optimization.
 
-### The Challenge I: Develop Chain expansion strategy  
-The company needed to optimize its existing delivery network and plan expansion into new markets. The goal was to balance **fast delivery times** (customer satisfaction) with **operational costs** (minimizing the number of darkstores).
+---
+
+## 📦 Spatial Network Optimization & Demand Forecasting
+*Global facility location strategy and deployment for food delivery company*
+
+**The Research Challenge**  
+Optimizing complex logistical networks by balancing spatial coverage (service time) with resource constraints (facility limits), alongside predicting localized demand in entirely new geographic markets.
 
 **The Methodology (Pipeline)**  
-I built an end-to-end simulation engine to solve this:
+I built an end-to-end spatial simulation and forecasting engine integrating operations research with machine learning:
 
 ```text
-[Raw Demand Data] ──> [Spatial Clustering] ──> [Network Optimization] ──> [Final Site Coordinates and Service area]
-(Socio-demographics)      (DBSCAN)              (Linear Programming)           (Strategic Locations)
+[Raw Demand Data] ──> [Spatial Clustering] ──> [Network Optimization] ──> [Final Site Coordinates]
+(Socio-demographics)      (DBSCAN)              (Linear Programming)       (Strategic Allocation)
+
+[Multi-Source Data]  ──>  [Feature Engineering] ──>  [ML Prediction Model] ──> [Demand Heatmap]
+(Census, Buildings)     (200m Grid Aggregation)    (XGBoost / Forecast)       (Spatial Output)
 ```
 
-### The Challenge II: Site Selection in Israel & Russia based on historic data
-The company wanted to expand into new cities but didn't know where exactly to open new warhouses to maximise potential demand.
+## 🛰️ Morphometric Analysis in Data-Scarce Environments
+*Socio-economic proxy modeling for telecom infrastructure (Nigeria, Brazil, Indonesia)*
 
-**The Methodology (Pipeline)**
-I developed a predictive framework to forecast demand in new territories:
+**The Research Challenge**  
+Identifying optimal deployment zones for critical infrastructure (FTTH) in rapidly growing megacities (e.g., Lagos, Jakarta) where high-resolution demographic and socio-economic census data is unreliable or entirely absent.
+
+**The Methodology (Pipeline)**  
+I developed a proxy-based economic modeling engine that derives localized socio-economic indicators from the physical built environment:
 
 ```text
-[Multi-Source Data]  ──>  [Feature Engineering] ──>  [ML Prediction Model] ──> [Strategic Output]
-(Census, Buildings, Orders) (200m Grid Aggregation) (Forecast 6-mo Volume) (Demand Heatmap)
+[Satellite & Geometry] ──> [Morphometric Analysis] ──> [Spatial Clustering] ──> [Economic Proxy Model]
+(NDVI, Building Shapes)    (Density, Greenery)         (K-Means Context)       (Estimated Local Wealth)
 ```
 
-<img src="images/yango_israel.png" alt="Yango Israel Map" width="900">
+## 🌐 Macro-Scale Gravity Modeling & Traffic Simulation
+*Large-scale spatial interaction modeling for the energy and retail sectors (UAE, USA)*
 
+**The Research Challenge**  
+Simulating vehicle and pedestrian mobility flows across vast regional geographies to model accessibility, spatial penetration, and optimal site allocation for widespread infrastructure networks.
 
-## ⛽ Global Retail Site Selection (Locatium)
-**Industry:** Retail & Energy    
-**Location:** UAE, USA, Global   
-
-**The Challenge**   
-Global clients needed to select the most profitable locations for new gas stations, retail and restaurants chains across vast regions in the UAE and USA. 
-
-**The Methodology (Pipeline)**   
-I designed a multi-stage spatial modeling framework:
+**The Methodology (Pipeline)**  
+I designed a multi-stage spatial modeling framework leveraging spatial interaction algorithms:
 
 ```text
 [Spatial Data Ingestion] ──> [Traffic Simulation] ──> [Predictive Modeling] ──> [Site Scoring Map]
-(POIs, Demographics, Streets) (Gravity Models & OD Matrix) (Service Penetration)   (Optimal Locations)
+(POIs, Demographics)       (Gravity Models & OD)      (Spatial Penetration)    (Optimal Locations)
 ```
 
-<img src="images/ev_locations.png" alt="ev Map" width="900">
+## 📍 Micro-Level Catchment Modeling & Spatial Embeddings
+*High-resolution spatial similarity and interaction modeling (Tel Aviv) for retail chain*
 
-## ⛽ FTTH potential at building level (Locatium)
-**Industry:** Telecom
-**Location:** Nigeria, Brasil, Indonesia
+**The Research Challenge**  
+Modeling micro-level pedestrian interactions and neighborhood demographic alignment to optimize facility placement without cannibalizing the catchment areas of existing infrastructure.
 
-**The Challenge**   
-Major telecom operators needed to prioritize Fiber-to-the-Home (FTTH) rollouts in dense cities like Lagos, Jakarta, and São Paulo. **The main problem** was identifying profitable neighborhoods to target first, as these regions lacked high-resolution socio-economic data.
-
-**The Methodology (Pipeline)**   
-I developed a proxy-based economic modeling engine:
+**The Methodology (Pipeline)**  
+I utilized advanced spatial embeddings (adapting NLP techniques to POI sequences) alongside localized gravity models:
 
 ```text
-[Satellite & Geometry] ──> [Morphometric Analysis] ──> [Spatial Clustering] ──> [Revenue Modeling]
-(NDVI, Building Shapes)    (Density, Greenery)          (K-Means Context)       (Predicted ARPU)
-```
-**Estimated Buildings Economic score in Lagos**
-<img src="images/lagos.png" alt="Lagos Map" width="900">
-
-
-### 🍦 Data-Driven Site Selection
-**Industry:** Cafe&Restaurants    
-**Location:** Tel Aviv
-![GeoPandas](https://img.shields.io/badge/-GeoPandas-333?style=flat) ![Gravity Models](https://img.shields.io/badge/-Spatial_Interaction-333?style=flat)
-
-**The Challenge**   
-A premium Gelato brand needed to open a new branch without cannibalizing their existing store. They required a location with high evening foot traffic and specific demographic alignment.
-
-**The Methodology (Pipeline)**   
-I utilized spatial embeddings and interaction modeling to score locations:
-
-```text
-[Competitor Analysis] ──> [Traffic Simulation] ──> [Site Scoring] ──> [Interactive Dashboard]
-(Embeddings & Similarity) (Gravity Model @ 100m)   (Catchment & KPIs)   (Decision Support)
+[Contextual Analysis] ──> [Traffic Simulation] ──> [Site Scoring] ──> [Interactive Dashboard]
+(Spatial Embeddings)      (Gravity Model @ 100m)   (Catchment KPIs)   (Decision Support)
 ```
 
-### Dashboard ###
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="images/traffic_sim_telaviv.png" alt="TA_traffic Map" width="32%">
-  <img src="images/socdem_example.png" alt="TA_socdem" width="65%">
-</div>
-
-<img src="images/dashboard_rivareno.png" alt="TA_traffic Map" width="900">
-
-
-## 🛠️ Technical Stack
-
-### **languages & Core Libraries**
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
-
-### **Spatial Analytics & Visualization**
-![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=python&logoColor=white)
-![PostGIS](https://img.shields.io/badge/PostGIS-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Kepler.gl](https://img.shields.io/badge/Kepler.gl-3B3B3B?style=for-the-badge&logo=uber&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
-* **Libraries:** `PySAL`, `Folium`, `Shapely`, `Rasterio`, `GeoPandas`
-
-### **Machine Learning & Cloud**
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
-![BigQuery](https://img.shields.io/badge/BigQuery-669DF6?style=for-the-badge&logo=googlebigquery&logoColor=white)
-* **Models:** XGBoost, Random Forest, DBSCAN, LogisticRegression, Kmeans
-* **Tools:** Python, Docker, Git, BigQuery, PostGIS
 
 ---
 
