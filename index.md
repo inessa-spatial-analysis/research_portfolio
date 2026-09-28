@@ -1,6 +1,7 @@
 [**About me**](index.md) | [**Academic Papers**](working-papers.md) | [**Applied Urban Research**](researches.md) | [**R&D & Location consulitng**](rd-code.md) 
 
 
+
 > I am a spatial data scientist and Ph.D. candidate at the Hebrew University of Jerusalem, bridging the gap between academic theory and applied location intelligence. My research explores how human behavior shapes the urban environment, leveraging large-scale mobile phone signal data and advanced spatial econometrics. 
 > I am driven by applied research that uses complex spatial datasets to inform urban health policy, improve built environments, and support sustainable city planning. 
 > Please use the navigation links above to explore my academic papers, public sector research, and methodological pipelines.
