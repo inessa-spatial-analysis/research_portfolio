@@ -1,71 +1,44 @@
-[← Back to Home](index.md)
+[**About me**](index.md) | [**Academic Papers**](working-papers.md) | [**Applied Urban Research**](researches.md) | [**R&D & Location consulting**](rd-code.md) | [**Teaching**](teaching.md) | [**CV**](CV_TREGUBOVA_Academic.pdf)
 
-# Urban Researches
+# Applied Urban Policy Research
 
-## REAL ESTATE
-
-### 🏙️ UK Digital Planning & Open Data (collaboration with Novaya Labs)
-**Client:** Greater London Authority   
-**Challenge:** How can a Local Authority ensure that a development project will proceed when planning for new infrastructure? What type of data can one use for that? What does data quality mean when building Machine Learning models in this context?
-
-
-**Solution:**
-* Investigated 30+ Datasets for 5 London Boroughs to identify which factors and related datasets can be robust indicators for development going ahead. 
-* Agregated many datasource into one dashboard and performed descriptive analysis
-* Run Weighted Regression to evaulate impact of CIL on planning success development
-
-* **[Link](https://novaya.co.uk/cilpublic)**
-  
-### 🇬🇧 Property Development Success (Research project at University of Glasgow)
-* **Client:** Lumiere Property, London.
-* **Challenge**
-Understanding the specific factors that drive planning approval decisions in the London Borough of Bromley. The goal was to transform opaque administrative records into actionable insights on what makes a proposal successful.
-
-**Solution**   
-* **Data Digitization:** Aggregated and digitized historical planning applications and decision notices from unstructured council records.
-* **Spatial Enrichment:** Enhanced the dataset with granular spatial features derived from Open Data, including building proximity, conservation area status, and accessibility metrics.
-* **Explainable AI:** Developed Machine Learning models to quantify the specific impact of each spatial factor on the council's decision, providing a transparent view of approval probability.
-* **[Github](https://github.com/Ines2607/Group-Project)**
-
-
-## PUBLIC PLACES
-
-### Public Space "Foaminess" Analysis (collaboration with Habidatum)
-* **Client:** Amsterdam Municipality 
-* **Challenge:** Understand what public spaces have local and what have global significance
-* **Solution:** Based on labeled by experts list of POIs classify other public places in Amsterdam based on visiting patterns derived from GPS-signals data using Random Forest model
-* **[Report](https://openresearch.amsterdam/image/2024/7/27/community_rhythms_drsr_for_cr.pdf)**
-
-### Tourism Hotspot Identification
-* **Client:** Department of Tourism, Moscow.
-* **Challenge:** Identify major tourist attractors and spots using mobile operator data.
-<img src="images/tourist_hotspots.png" alt="tourist_hotpost" width="100%">
-
-## PUBLIC TRANSPORT
-
-### Light Rail Performance Analysis in Tel Aviv Metropolitan area (collaboration with NGO 15 min)
-
-**The Challenge**      
-To evaluate the efficiency of the new Light Rail Transit (LRT) Red Line. The goal was to quantify the gap between **potential** ridership (based on surrounding density) and **actual** usage, identifying stations that were underperforming due to poor accessibility.
-
-**The Solution**   
-* **Catchment Modeling:** Developed a methodology to estimate total potential ridership by aggregating resident and worker populations within the statistical areas surrounding each station.
-* **Multi-Modal Access:** Modeled "First Mile/Last Mile" connectivity by calculating walking isochrones and analyzing existing bus feeder capacities.
-* **Gap Analysis:** Calculated the "Realization Ratio" (Actual vs. Potential usage) for every station and visualized these gaps on a map to highlight specific locations requiring infrastructure improvements.
-  
-**[Report](https://drive.google.com/file/d/1Ux5djzec95pXNBHByEmeu4GijA-oiSP4/view)** 
-
-## URBAN ECONOMY 
-
-### PhD Research
-**Topic: The impact of Remote Work on urban equilibrium**
-
-My doctoral research focuses on measuring WFH at neighborhood level in TelAviv Metropolitan area and estimate its impact on rental prices and consumtion of urban amenities.
-
-* **Focus Area:** Analyzing how hybrid work patterns reshape urban economics and infrastructure needs.
-* **Methodology:** Utilizing GPS-singnals data together with Bayesean and spatial econometrics models to understand shifts in city dynamics.
-* **[Github](https://github.com/Ines2607/phd-remote-work)**
+This section highlights my applied spatial research conducted in collaboration with municipalities, local authorities, and non-governmental organizations. These projects translate complex, large-scale urban data into actionable insights for public infrastructure, built-environment planning, and transit accessibility.
 
 ---
-[← Back to Home](index.md)
 
+## 🏙️ Urban Infrastructure Planning & Development Viability
+*In collaboration with Novaya Labs for the Greater London Authority (GLA)* | [**Project Dashboard**](https://novaya.co.uk/cilpublic)
+
+*   **Research Objective:** To determine which spatial factors and administrative datasets serve as robust indicators for the successful realization of planned urban infrastructure developments. 
+*   **Data & Methodology:** Aggregated and integrated over 30 distinct datasets across five London Boroughs. Employed WLS Regression and Logistic Regression models to evaluate the specific impact of the Community Infrastructure Levy (CIL) on the probability of planning success and development completion.
+*   **Policy Implications:** Provided local authorities with a data-driven framework to evaluate the quality of municipal datasets, ensuring more reliable predictive modeling for long-term urban infrastructure planning.
+
+## 🇬🇧 Spatial Determinants of Urban Planning Approvals
+*Academic Research Project, University of Glasgow (Case Study: London Borough of Bromley)* | [**Code Repository**](https://github.com/Ines2607/Group-Project)
+
+*   **Research Objective:** To explain the municipal planning approval process by quantifying how specific built-environment characteristics influence local authority decisions.
+*   **Data & Methodology:** Digitized historical, unstructured administrative planning records and enriched the dataset with granular spatial features (e.g., building proximity, conservation area status, transit accessibility) using Open Data. Developed Explainable Machine Learning (Logistic Regression, XGBoost) models to isolate the marginal impact of each spatial feature on approval outcomes.
+*   **Policy Implications:** Transformed opaque administrative histories into transparent, actionable models, demonstrating how local governments can utilize Machine Learning to ensure equitable and consistent urban planning decisions.
+
+## ⛲ Classifying the "Foaminess" of Urban Public Spaces
+*In collaboration with Habidatum for the Amsterdam Municipality* | [**Read Report**](https://openresearch.amsterdam/image/2024/7/27/community_rhythms_drsr_for_cr.pdf)
+
+*   **Research Objective:** To empirically differentiate public spaces based on their usage profiles—distinguishing between spaces that serve local community rhythms ("local significance") versus those that absorb broader metropolitan or tourist traffic ("global significance").
+*   **Data & Methodology:** Utilized large-scale GPS-signal data to extract temporal and spatial visitation patterns. Implemented NearestNeighbors and Random Forest classification models trained on an expert-labeled subset of Points of Interest (POIs) to predict and classify the functional "foaminess" of public spaces citywide.
+*   **Policy Implications:** Provided the municipality with a scalable methodology to monitor public space utilization
+
+## 🚈 Transit Efficiency and First/Last-Mile Accessibility
+*In collaboration with the NGO "15 Minutes" (Tel Aviv Metropolitan Area)* | [**Read Report (in Hebrew)**](https://drive.google.com/file/d/1Ux5djzec95pXNBHByEmeu4GijA-oiSP4/view)
+
+*   **Research Objective:** To evaluate the spatial efficiency and equity of the new Light Rail Transit (LRT) Red Line in Tel Aviv Metropolitan Area by quantifying the gap between potential neighborhood ridership and actual station usage.
+*   **Data & Methodology:** Developed a spatial catchment model aggregating resident and worker populations within the statistical areas surrounding each LRT station. Modeled multi-modal first-mile/last-mile access by calculating walking isochrones and analyzing bus feeder capacities. Computed a "Realization Ratio" to highlight precise accessibility deficits.
+*   **Policy Implications:** Identified specific stations suffering from poor pedestrian infrastructure or inadequate feeder routes, directly informing public transit advocacy efforts to improve the active mobility network and built environment around the new LRT line.
+
+## 🗺️ Spatial Clustering of Macro-Mobility Dynamics
+*For the Department of Tourism, Moscow*
+
+*   **Research Objective:** To map and quantify macro-level mobility attractors across the city to understand the spatial distribution of tourist foot traffic.
+*   **Data & Methodology:** Processed and analyzed massive datasets of mobile operator records (Call Detail Records) to perform spatial clustering and identify dominant hotspots of tourist mobility. 
+*   **Policy Implications:** Supported municipal infrastructure capacity planning by clearly delineating the geographic footprint of high-density visitation, aiding in the strategic deployment of public services and crowd-control measures.
+
+*(Note: My doctoral research on Remote Work and Urban Equilibrium is detailed on the [Academic Papers](working-papers.md) page).*
