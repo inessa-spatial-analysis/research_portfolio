@@ -1,4 +1,4 @@
-[**About me**](index.md) | [**Academic Papers**](working-papers.md) | [**Applied Urban Research**](applied-research.md) | [**R&D & Location consulitng**](rd-code.md) | [**Teaching**](teaching.md) | [**CV**](CV_TREGUBOVA_Academic.pdf)
+[**About me**](index.md) | [**Academic Papers**](working-papers.md) | [**Applied Urban Research**](researches.md) | [**R&D & Location consulitng**](rd-code.md) | [**Teaching**](teaching.md) | [**CV**](CV_TREGUBOVA_Academic.pdf)
 
 
 > I am a spatial data scientist and Ph.D. candidate at the Hebrew University of Jerusalem, bridging the gap between academic theory and applied location intelligence. My research explores how human behavior shapes the urban environment, leveraging large-scale mobile phone signal data and advanced spatial econometrics. 
